@@ -18,7 +18,7 @@ function pathResolve(dir: string) {
 
 export default ({ command }: ConfigEnv): UserConfigExport => {
     return {
-        base: '/jp-sake',
+        base: '/',
         resolve: {
             alias: [
                 {
